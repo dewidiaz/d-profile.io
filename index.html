@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+
+
+
+
+
+    </head>
+
+    <body>
+
+      <div class="navbar-fixed">
+        <nav class="black">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo"> <img src="images/d.png" width="30" height="30" ></a>
+
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger" >
+                <i class="material-icons"><span class="white-text text-darken-2"> menu </span></i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="about.html">
+                                <span class="black-text text-darken-2">about</span></a></li>
+                        <li><a href="works.html"><span class="black-text text-darken-2">works</span> </a></li>
+                        <li><a href="contact.html"><span class="black-text text-darken-2">contact</span> </a></li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+                  <ul class="sidenav " id="mobile-nav">
+
+
+                        <div class="user-view">
+
+                            <img src="images/d.png" width="48px" height="48px" alt=" " class="circle responsive-img brand-logo "> </li>
+
+
+                          <br>
+                          <br>
+
+                          <li><a href="#"><span class="white-text"> about</span></a></li>
+                          <br>
+                          <br>
+
+
+                          <li><a href="#"><span class="white-text"> works </span></a></li>
+                          <br>
+                          <br>
+                          <li><a href="#"><span class="white-text">contact</span></a></li>
+                          <br>
+                          <br>
+                        </div>
+
+                    </ul>
+
+                </div>
+              </div>
+
+
+<!-- slider -->
+
+    <div class="slider">
+      <ul class="slides">
+
+        <li><img src="images/ales-nesetril-734016-unsplash.jpg">
+            <div class="caption center-align">
+              <h3>Hello!</h3>
+                <h5 class="white-text "> What's your main focus for today ?.</h5>
+            </div>
+          </li>
+          <li><img src="images/blake-connally-373084-unsplash.jpg">
+            <div class="caption right-align">
+              <h3>Hello!</h3>
+                <h5 class="white-text "> What's your main focus  for today ?. </h5>
+            </div>
+          </li>
+          <li><img src="images/chang-duong-480253-unsplash.jpg">
+            <div class="caption left-align">
+              <h3>Hello!</h3>
+                <h5 class="white-text "> What's your main focus  for today ?.</h5>
+            </div>
+          </li>
+      </ul>
+    </div>
+
+
+<!-- about  -->
+
+      <section id="about" class="about">
+
+            <div class="container">
+              <div class="row">
+                <h3  class="white-text center" > About Us </h3>
+                <div class="col m6">
+                  <h5 class="white-text"> We Are Proffesionals </h5>
+                  <p class="white-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora expedita veritatis vel saepe, et id. Perspiciatis, molestiae quibusdam iure corrupti minus cum! Distinctio officia, ut aperiam voluptate eligendi eveniet! </p>
+                </div>
+                <div class="col m6">
+                  <p class="white-text"> web development</p>
+                  <div class="progress">
+                    <div class="determinate white" style="width: 80%"></div>
+                    </div>
+                    <p class="white-text"> mobile app  development </p>
+                    <div class="progress">
+                      <div class="determinate white" style="width: 90%"></div>
+                      </div>
+                      <p class="white-text"> game development</p>
+                      <div class="progress">
+                        <div class="determinate white" style="width: 80%"></div>
+                        </div>
+
+
+                </div>
+          </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const sidenav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sidenav);
+
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider,{
+        indicators :false,
+
+        interval :3000,
+
+
+
+      } );
+
+
+    </script>
+
+
+
+
+    </body>
+  </html>
