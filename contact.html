@@ -8,46 +8,213 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+      <link rel="icon" type="images/favicon-32x32.png" href="images/favicon-32x32.png" sizes="32x32" />
+
 
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-</head>
 
 
-<nav>
+
+
+
+
+    </head>
 
     <body>
-      <div class="navbar-fixed">
+
+      <div class="navbar-collapsible">
         <nav class="black">
+
           <div class="container">
             <div class="nav-wrapper">
               <a href="index.html" class="brand-logo"> <img src="images/d.png" width="30" height="30" ></a>
 
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger" >
+                <i class="material-icons"><span class="white-text text-darken-2"> menu </span></i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">
+                              <span class="white-text text-darken-2">about</span></a></li>
+                        <li><a href="services.html"><span class="white-text text-darken-2">works</span> </a></li>
+                        <li><a href="contact.html"><span class="white-text text-darken-2">contact</span> </a></li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <ul class="sidenav " id="mobile-nav">
+            <li class="sidenav-header"
+                <div class="background black">
 
-</div>
+                    <div class="user-view">
+
+                    <img src="images/d.png" width="48px" height="48px" alt=" " class="circle responsive-img brand-logo "> </li>
+
+
+                    <br>
+                    <br>
+            </li>
+
+                  <li><a href="#about"> <span class="white-text"> about</span> </a></li>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+                  <li><a href="#services"> <span class="white-text">services</span></a></li>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+                  <li><a href="#contact"> <span class="white-text">contact</span></a></li>
+
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+                </div>
+
+
+          <!-- footer  -->
 
 
 
-<!-- about  -->
+          <li class="sidenav-footer">
+
+
+                            <div class="row">
+                              <div class="background black">
+
+                              <div class="social-icons">
+                                <div class="col s2">
+                                  <a href="mailto:hi.urbansupply@gmail.com"> <span class="white-text"> <i class="fas fa-envelope-open" large></i> </span> </span> </a>
+                                </div>
+                              <div class="col s2">
+
+                                  <a href="#"> <span class="white-text"> <i class="fas fa-phone" large></i> </span> </a>
+
+
+                              </div>
+                              <div class="col s2">
+                                  <a href="#"> <span class="white-text"> <i class="fab fa-spotify" large></i> </span> </a>
+
+                              </div>
+                              <div class="col s2">
+                                  <a href="#"> <span class="white-text"> <i class="fas fa-briefcase" large></i> </span>  </a>
+
+                              </div>
+                              <div class="col s2">
+                                  <a href="#"> <span class="white-text"> <i class="fas fa-images" large></i> </span> </a>
+
+                              </div>
+                              <div class="col s2">
+                                  <a href="#"> <span class="white-text"> <i class="fas fa-adjust" large></i> </span> </a>
+
+                              </div>
+
+                    </li>
+
+              </div>
+
+
+
+
+      </ul>
+
+
+<!-- contact  -->
+<section id="contact" class="contact scrollspy">
+
+  <div  class="container">
+    <h5 class="white-text center "> Contact Us </h5>
+      <div class="row">
+        <div class="col m5 s12 center">
+          <div class="card-panel center  white " >
+            <br>
+              <i class="material-icons small">email </i>
+              <br>
+              <br>
+
+              <h5> hi@dworks.com </h5>
+              <br>
+              <br>
+              <br>
+
+              <i class="material-icons small"> free_breakfast </i>
+              <br>
+              <br>
+
+
+
+              <p>Setiabudi 193</p>
+              <p> Bandung, West Java </p>
+              <p> Indonesia </p>
+              <br>
+              <br>
+            </div>
+<!-- <ul class ="collection with-header">
+  <li class="collection-item center"> <i class="material-icons small">free_breakfast </i> </li>
+    <li class="collection-item"> d.</li>
+
+    <li class="collection-item"> Setiabudi 193,Bandung</li>
+    <li class="collection-item"> West Java, Indonesia</li>
+  </ul>  -->
+
+
+
+
+
+      </div>
+    <div class="col m7 s12">
+      <form >
+        <div  id="login" class="card-panel">
+        <h5 class="center" >Please Fill Out This Form </h5>
+        <div class="input-field">
+          <input type ="text" name ="name" id="name"
+          <label for="name">Name</Label>
+        </div>
+
+        <div class="input-field">
+          <input type ="email" name ="email" id="email"
+          <label for="email">Email</Label>
+        </div>
+        <div class="input-field">
+          <input type ="text" name ="phone" id="phone"
+          <label for="phone">Phone Number </Label>
+        </div>
+        <div class="input-field">
+          <textarea name="message" id="message" class="
+          materialize-textarea"></textarea>
+          <label for="message">Message </Label>
+          </div>
+      </form>
+        <button type="submit"> Send </button>
+
+      </div>
+
+      </div>
+
+
+      </div>
+
+</section>
 
 
 
 
 
 
-</nav>
+<!-- footer  -->
 
-
-
-
-    <!-- social link  -->
-
-
-    <!-- footer  -->
-
-    <footer class="page-footer black fixed-bottom">
+<footer class="page-footer black">
           <div class="container black ">
           <div class="row">
           <div class="col s3 white-text flow-text center" ><span> <i class="fab fa-twitter" ></i></span></div>
@@ -95,6 +262,13 @@
 
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script>
+
+      const materialbox = document.querySelectorAll('.materialboxed');
+      M.Materialbox.init(materialbox);
+
+      const parallax = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallax);
+
       const sidenav = document.querySelectorAll('.sidenav');
       M.Sidenav.init(sidenav);
 
@@ -103,6 +277,10 @@
         indicators :false,
 
         interval :3000,} );
+
+      const scroll = document.querySelectorAll ('.scrollspy');
+      M.ScrollSpy.init(scroll);
+
 
 
     </script>
